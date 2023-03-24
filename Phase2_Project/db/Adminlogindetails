@@ -1,0 +1,9 @@
+use flyhigh;
+create table AdminLogin (
+ id int AUTO_INCREMENT PRIMARY KEY,
+ Username varchar(45),
+ Password varchar(45)
+);
+
+insert into AdminLogin (Username, Password) values ('Sujith', '9876');
+insert into AdminLogin (Username, Password) values ('Dhanraj', 'orange');

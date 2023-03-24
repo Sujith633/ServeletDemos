@@ -1,0 +1,15 @@
+use flyhigh;
+create table FlightsList (
+ id int AUTO_INCREMENT PRIMARY KEY,
+ Flightname varchar(45),
+ Airlinename varchar(45),Source varchar(45),Destination varchar(45),Price int
+);
+
+insert into FlightsList (Flightname, Airlinename,Source,Destination,Price) values ('Hydout', 'AiIndia','Hyderabad','Mumbai',5400);
+insert into FlightsList (Flightname, Airlinename,Source,Destination,Price) values ('Delout', 'AiIndia','Hyderabad','Mumbai',4400);
+insert into FlightsList (Flightname, Airlinename,Source,Destination,Price) values ('Benout', 'AiIndia','Hyderabad','Mumbai',3200);
+insert into FlightsList (Flightname, Airlinename,Source,Destination,Price) values ('Cheout', 'AiIndia','Hyderabad','Mumbai',4200);
+insert into FlightsList (Flightname, Airlinename,Source,Destination,Price) values ('Hydin', 'GoAir','Delhi','Mumbai',8700);
+insert into FlightsList (Flightname, Airlinename,Source,Destination,Price) values ('Delin', 'GoAir','Delhi','Mumbai',5600);
+insert into FlightsList (Flightname, Airlinename,Source,Destination,Price) values ('Benin', 'GoAir','Chennai','Mumbai',2200);
+insert into FlightsList (Flightname, Airlinename,Source,Destination,Price) values ('Chein', 'GoAir','Chennai','Mumbai',4300);
