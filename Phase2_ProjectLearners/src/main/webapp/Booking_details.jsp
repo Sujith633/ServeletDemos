@@ -4,18 +4,20 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Booking</title>
+<title>Confirm Booking</title>
 </head>
 <style>
-h1 {
-	text-align: center;
-}
+h1 {text-align: center;}
+h2 {text-align: center;}
+h3 {text-align: center;}
 </style>
-<body bgcolor="lightblue">
-	<h1>Welcome to the Flyhigh ticket booking portal</h1>
-	<form action="User_TicketBooking" method="get">
+<body>
+	<h1>Welcome to the booking portal</h1>
+	<h2>Enter the following details to register the flight tickets</h2>
+	<h3>Proceed to paymet</h3>
+	<form action="Payment" method="get">
 		
-		<table
+		<table border="1"
 			style="border: 1px solid black; margin-left: auto; margin-right: auto;">
 			<tr>
 			<td>
@@ -25,7 +27,6 @@ h1 {
 			max="2023-04-01">
 			</td>
 			</tr>
-
 			<tr>
 				<td>Name:</td>
 				<td><input type="text" name="name" /></td>
@@ -35,25 +36,24 @@ h1 {
 				<td>EmailId:</td>
 				<td><input type="text" name="emailid" /></td>
 			</tr>
+
 			<tr>
-				<td>Source:</td>
-				<td><input type="text" name="source" /></td>
-			</tr>
-			<tr>
-				<td>Destination:</td>
-				<td><input type="text" name="destination" /></td>
-			</tr>
-			<tr>
-				<td>No.of passangers:</td>
-				<td><input type="number" name="numofpass" /></td>
-			</tr>
-			<tr>
-				<td></td>
-				<td><input type="submit" value="Submit" /></td>
+				<td>Phoneno:</td>
+				<td><input type="number" name="phone" /></td>
 			</tr>
 
+			<tr>
+				<td>Name of the bank:</td>
+				<td><input type="text" name="bankname" /></td>
+			</tr>
+
+			<tr>
+				<td>Cardno:</td>
+				<td><input type="number" name="card" /></td>
+			</tr>
 
 		</table>
+<h3><input type="submit" value="Pay" /></h3>
 	</form>
 </body>
 </html>
